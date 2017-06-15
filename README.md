@@ -21,7 +21,7 @@ First install the prerequisite libraries.
 
 ```shell
 npm install -g mocha
-npm install chai sinon chai enzyme jsdom babel-cli
+npm install
 ```
 
 ### Code samples
