@@ -17,7 +17,7 @@ All the source code is here / in a [GitHub repo](https://github.com/JoshuaKGoldb
 
 ## Preliminary Setup
 
-First install the prerequisite libraries.
+First make sure you have [NodeJS >=7](https://nodejs.org/en/download/) installed, then install the prerequisite libraries.
 
 ```shell
 npm install -g mocha
