@@ -36,12 +36,8 @@ Regardless of _how_ Enzyme works and is set up (*"wtf is `mount`?*), it's appare
 You can read more of Enzyme's [API on their docs](http://airbnb.io/enzyme/docs/api/index.html).
 It's got a whole bunch of random functions for finding rendered components that you can use in your tests.
 
-Mac/Linux:
-```shell
-./node_modules/bin./babel "6 - Enzyme/Button.jsx" --presets react > "6 - Enzyme/Button.js"
-```
+To compile the `.jsx` files:
 
-Windows:
-```shell
-.\node_modules\.bin\babel "6 - Enzyme\Button.jsx" --presets react > "6 - Enzyme\Button.js"
-```
+* Mac/Linux: `./node_modules/bin./babel "6 - Enzyme/Button.jsx" --presets react > "6 - Enzyme/Button.js"`
+* Windows: `.\node_modules\.bin\babel "6 - Enzyme\Button.jsx" --presets react > "6 - Enzyme\Button.js"`
+
