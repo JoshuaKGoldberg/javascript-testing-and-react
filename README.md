@@ -17,7 +17,18 @@ All the source code is here / in a [GitHub repo](https://github.com/JoshuaKGoldb
 
 ## Preliminary Setup
 
-First make sure you have [NodeJS >=7](https://nodejs.org/en/download/current/) installed, then install the prerequisite libraries.
+First make sure you have [NodeJS >=7](https://nodejs.org/en/download/current/) installed.
+
+Git clone this repo to your compuer.
+If you're on Mac or Linux, you may need to prepend `sudo` to each of these commands.
+
+```shell
+cd wherever/you/keep/your/code
+git clone https://github.com/JoshuaKGoldberg/javascript-testing-and-react
+cd javascript-testing-and-react
+```
+
+Install the prerequisite libraries:
 
 ```shell
 npm install -g mocha
