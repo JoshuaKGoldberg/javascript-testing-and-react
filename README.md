@@ -17,7 +17,7 @@ All the source code is here / in a [GitHub repo](https://github.com/JoshuaKGoldb
 
 ## Preliminary Setup
 
-First make sure you have [NodeJS >=7](https://nodejs.org/en/download/current/) installed.
+First make sure you have [NodeJS >=7](https://nodejs.org/en/download/current/) installed by running `node --version`.
 
 Git clone this repo to your compuer.
 If you're on Mac or Linux, you may need to prepend `sudo` to each of these commands.
