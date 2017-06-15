@@ -31,13 +31,15 @@ There's a bit of setup, but here's how the tests look...
 
 I've heard that one of many prerequesities of "good" code is that you can understand its usage without knowing how it works on the inside.
 
-Regardless of _how_ Enzyme works and is set up (*"wtf is `mount`?*), it's apparent that this is creating a `Button` and checking whether its text is the expected `text`.
+Regardless of _how_ Enzyme works and is set up (*"wtf is `mount`?*"), it's apparent that this is creating a `Button` and checking whether its text is the expected `text`.
+
+> `mount` takes in a React component and "mounts" it as if it were in a real page.
+> This lets us test what would happen if we were to run it without creating a whole browser and page around it.
 
 You can read more of Enzyme's [API on their docs](http://airbnb.io/enzyme/docs/api/index.html).
-It's got a whole bunch of random functions for finding rendered components that you can use in your tests.
+It's got a whole bunch of useful functions for finding rendered components that you can use in your tests.
 
 To compile the `.jsx` files:
 
-* Mac/Linux: `./node_modules/bin./babel "6 - Enzyme/Button.jsx" --presets react > "6 - Enzyme/Button.js"`
+* Mac/Linux: `./node_modules/.bin/babel "6 - Enzyme/Button.jsx" --presets react > "6 - Enzyme/Button.js"`
 * Windows: `.\node_modules\.bin\babel "6 - Enzyme\Button.jsx" --presets react > "6 - Enzyme\Button.js"`
-
