@@ -20,7 +20,6 @@ All the source code is here / in a [GitHub repo](https://github.com/JoshuaKGoldb
 First make sure you have [NodeJS >=7](https://nodejs.org/en/download/current/) installed by running `node --version`.
 
 Git clone this repo to your compuer.
-If you're on Mac or Linux, you may need to prepend `sudo` to each of these commands.
 
 ```shell
 cd wherever/you/keep/your/code
@@ -28,7 +27,7 @@ git clone https://github.com/JoshuaKGoldberg/javascript-testing-and-react
 cd javascript-testing-and-react
 ```
 
-Install the prerequisite libraries:
+Install the prerequisite libraries. (If you're on Mac or Linux, you should prepend `sudo` to the mocha install command.
 
 ```shell
 npm install -g mocha
